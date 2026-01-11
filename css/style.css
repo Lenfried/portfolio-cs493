@@ -312,7 +312,7 @@ img { max-width: 100%; display: block; }
 .btn.primary {
   border-color: rgba(57,255,20,0.55);
   background: rgba(57,255,20,0.12);
-  color: #061005;
+  color: #15fb00;
 }
 
 .btn.primary:hover {
