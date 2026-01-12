@@ -357,6 +357,30 @@ input:focus, textarea:focus {
   font-size: 14px;
 }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.contact-image {
+  flex-shrink: 0;
+}
+
+.contact-image img {
+  width: 240px;
+  height: 240px;
+  border-radius: 16px;
+  box-shadow: 0 14px 48px rgba(2,6,10,0.7);
+  border: 1px solid rgba(57,255,20,0.10);
+  object-fit: cover;
+}
+
+.contact-line {
+  margin: 12px 0;
+}
+
 /* =========
    Footer
 ========= */
@@ -381,6 +405,7 @@ input:focus, textarea:focus {
   .projects-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
   .two-col { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
 
   .nav-toggle { display: inline-flex; }
 
